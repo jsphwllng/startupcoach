@@ -14,12 +14,12 @@ class ThirdPane extends React.Component {
           <br />
           <br />
           <br />
-          <p style={{ fontFamily: "Inter", fontSize: "20px" }}>
+          <p style={{ fontFamily: "Inter", fontSize: "20px", color: "black" }}>
             I also spoke at these events and workshops
           </p>
           <div
             className="container ml-3"
-            style={{ fontFamily: "Inter", fontSize: "30px" }}
+            style={{ fontFamily: "Inter", fontSize: "30px", color: "black" }}
           >
             <p>Talking Talent by ACELR8</p>
             <p>Job Search Strategy by WomenTechMakers</p>

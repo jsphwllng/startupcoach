@@ -18,7 +18,7 @@ class FirthPane extends React.Component {
               marginBottom: "0!important",
             }}
           >
-            <InlineWidget url="https://calendly.com/james-back/30min-ext?month=2020-11" />
+            <InlineWidget url="https://calendly.com/annielicoaching/45min" />
           </div>
           <h1
             className="text-center"
