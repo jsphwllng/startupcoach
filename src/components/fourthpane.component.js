@@ -20,22 +20,23 @@ class FourthPane extends React.Component {
             <img
               src={jeremy}
               style={{ maxWidth: "50%" }}
-              className="img-fluid pt-10"
+              className="img-fluid pt-10 mb-3"
               alt="A stylised drawing of Jeremy wearing a big hat and smiling"
             />{" "}
             <div
               style={{
                 backgroundColor: "#FFE031",
                 color: "black",
-                width: "30%",
+                width: "50%",
                 display: "inline-block",
                 ontFamily: "Inter",
                 fontSize: "15px",
                 boxShadow: "10px 10px 0 0 black",
+                padding: "5px"
               }}
             >
-              "Am I the guy who wrote the cool CV? I'm not sure anyway Annie is
-              good!"
+              "Annie helped me identify gaps between my application and the role
+              I was applying to."
             </div>
             <p>Jeremy, Product Marketing Manager</p>
           </div>
@@ -43,18 +44,19 @@ class FourthPane extends React.Component {
             <img
               src={fanyi}
               style={{ maxWidth: "50%" }}
-              className="img-fluid pt-10"
+              className="img-fluid pt-10 mb-3"
               alt="A stylised drawing of Jeremy wearing a lightning bolt t-shirt"
             />
             <div
               style={{
                 backgroundColor: "#FFE031",
                 color: "black",
-                width: "30%",
+                width: "50%",
                 display: "inline-block",
                 ontFamily: "Inter",
                 fontSize: "15px",
                 boxShadow: "10px 10px 0 0 black",
+                padding: "5px"
               }}
             >
               "Annie encouraged me to apply to roles I wouldn't normally and I
@@ -68,7 +70,7 @@ class FourthPane extends React.Component {
             <img
               src={joseph}
               style={{ maxWidth: "50%" }}
-              className="img-fluid pt-10"
+              className="img-fluid pt-10 mb-3"
               alt="A stylised drawing of Joseph wearing a leather jacket and designing this very website"
             />
             <div
@@ -80,6 +82,7 @@ class FourthPane extends React.Component {
                 ontFamily: "Inter",
                 fontSize: "15px",
                 boxShadow: "10px 10px 0 0 black",
+                padding: "5px"
               }}
             >
               "Annie helped me structure my search and I changed career in less

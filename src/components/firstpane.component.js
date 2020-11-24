@@ -52,9 +52,9 @@ class FirstPane extends React.Component {
                   color: "black",
                 }}
               >
-                INSIDER KNOWLEDGE
+                INSIDER KNOWLEDGE.
               </h1>
-              <div className="text-right">
+              <div className="text-center">
                 <p
                   className="btn btn-dark"
                   style={{

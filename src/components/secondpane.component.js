@@ -138,7 +138,7 @@ class SecondPane extends React.Component {
 
         <img
           src={chatting}
-          style={{ maxWidth: "100vw" }}
+          style={{ maxWidth: "100vw", marginTop: "60px" }}
           alt="Annie, chatting at a small confrence regarding recruitment in UX/UI"
         />
       </div>
