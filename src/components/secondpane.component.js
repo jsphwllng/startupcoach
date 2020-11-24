@@ -8,44 +8,46 @@ class SecondPane extends React.Component {
       <div
         style={{
           backgroundColor: "#F1E8B8",
-          minHeight: "110vh",
+          minHeight: "70vh",
         }}
       >
-        <br />
-        <br />
-        <br />
-        <br />
-        <div className="row">
-          <div className="col">
-            <h1
-              className="text-center"
-              style={{
-                fontFamily: "Quattrocento",
-                fontSize: "45px",
-                fontWeight: "bold",
-                color: "black",
-              }}
-            >
-              JOB COACHING
-            </h1>
-          </div>
-          <div className="col text-center">
-            <p
-              className="btn btn-dark"
-              style={{
-                fontFamily: "Mukta",
-                fontSize: "15px",
-                backgroundColor: "black",
-              }}
-            >
-              <AnchorLink
-                href="#booking"
-                style={{ textDecoration: "none", color: "white!important" }}
-                id="blackbutton"
+        <div className="container">
+          <br />
+          <br />
+          <br />
+          <br />
+          <div className="row">
+            <div className="col">
+              <h1
+                className="text-center"
+                style={{
+                  fontFamily: "Quattrocento",
+                  fontSize: "45px",
+                  fontWeight: "bold",
+                  color: "black",
+                }}
               >
-                Book a session
-              </AnchorLink>
-            </p>
+                JOB COACHING
+              </h1>
+            </div>
+            <div className="col text-center">
+              <p
+                className="btn btn-dark"
+                style={{
+                  fontFamily: "Mukta",
+                  fontSize: "15px",
+                  backgroundColor: "black",
+                }}
+              >
+                <AnchorLink
+                  href="#booking"
+                  style={{ textDecoration: "none", color: "white!important" }}
+                  id="blackbutton"
+                >
+                  Book a session
+                </AnchorLink>
+              </p>
+            </div>
           </div>
         </div>
         {/* the weird line things */}
@@ -63,7 +65,7 @@ class SecondPane extends React.Component {
             display: "inline",
             verticalAlign: "top",
             fontFamily: "Mukta",
-            fontSize: "30px",
+            fontSize: "18px",
             marginLeft: "2%",
           }}
         >
@@ -83,7 +85,7 @@ class SecondPane extends React.Component {
             display: "inline",
             verticalAlign: "top",
             fontFamily: "Mukta",
-            fontSize: "30px",
+            fontSize: "18px",
             marginLeft: "2%",
           }}
         >
@@ -103,7 +105,7 @@ class SecondPane extends React.Component {
             display: "inline",
             verticalAlign: "top",
             fontFamily: "Mukta",
-            fontSize: "30px",
+            fontSize: "18px",
             marginLeft: "2%",
           }}
         >
@@ -124,7 +126,7 @@ class SecondPane extends React.Component {
             display: "inline",
             verticalAlign: "top",
             fontFamily: "Mukta",
-            fontSize: "30px",
+            fontSize: "20px",
             marginLeft: "2%",
           }}
         >
@@ -133,6 +135,7 @@ class SecondPane extends React.Component {
         </p>
         <br />
         <br />
+
         <img
           src={chatting}
           style={{ maxWidth: "100vw" }}

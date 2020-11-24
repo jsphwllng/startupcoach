@@ -16,7 +16,7 @@ class FourthPane extends React.Component {
         <br />
         <br />
         <div className="row">
-          <div className="col text-center">
+          <div className="col-sm text-center">
             <img
               src={jeremy}
               style={{ maxWidth: "50%" }}
@@ -31,7 +31,7 @@ class FourthPane extends React.Component {
                 display: "inline-block",
                 ontFamily: "Inter",
                 fontSize: "15px",
-                boxShadow: "-10px 10px 0 0 black",
+                boxShadow: "10px 10px 0 0 black",
               }}
             >
               "Am I the guy who wrote the cool CV? I'm not sure anyway Annie is
@@ -39,7 +39,7 @@ class FourthPane extends React.Component {
             </div>
             <p>Jeremy, Product Marketing Manager</p>
           </div>
-          <div className="col text-center">
+          <div className="col-sm text-center">
             <img
               src={fanyi}
               style={{ maxWidth: "50%" }}
@@ -54,7 +54,7 @@ class FourthPane extends React.Component {
                 display: "inline-block",
                 ontFamily: "Inter",
                 fontSize: "15px",
-                boxShadow: "-10px 10px 0 0 black",
+                boxShadow: "10px 10px 0 0 black",
               }}
             >
               "Annie encouraged me to apply to roles I wouldn't normally and I
@@ -63,32 +63,34 @@ class FourthPane extends React.Component {
             <p>Fanyi, Investment Associate</p>
           </div>
         </div>
-        <div className="text-center">
-          <img
-            src={joseph}
-            style={{ maxWidth: "50%" }}
-            className="img-fluid pt-10"
-            alt="A stylised drawing of Joseph wearing a leather jacket and designing this very website"
-          />
-          <div
-            style={{
-              backgroundColor: "#FFE031",
-              color: "black",
-              width: "15%",
-              display: "inline-block",
-              ontFamily: "Inter",
-              fontSize: "15px",
-              boxShadow: "-10px 10px 0 0 black",
-            }}
-          >
-            "Annie helped me structure my search and I successfully changed
-            career in less than 2 months!"
+        <div className="row">
+          <div className="col-sm text-center">
+            <img
+              src={joseph}
+              style={{ maxWidth: "50%" }}
+              className="img-fluid pt-10"
+              alt="A stylised drawing of Joseph wearing a leather jacket and designing this very website"
+            />
+            <div
+              style={{
+                backgroundColor: "#FFE031",
+                color: "black",
+                width: "30%",
+                display: "inline-block",
+                ontFamily: "Inter",
+                fontSize: "15px",
+                boxShadow: "10px 10px 0 0 black",
+              }}
+            >
+              "Annie helped me structure my search and I changed career in less
+              than 2 months!"
+            </div>
+            <p>Joseph, Software Engineer</p>
           </div>
-          <p>Joseph, Software Engineer</p>
+          <br />
+          <br />
+          <br />
         </div>
-        <br />
-        <br />
-        <br />
       </div>
     );
   }
