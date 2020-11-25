@@ -32,11 +32,12 @@ class FourthPane extends React.Component {
                 ontFamily: "Inter",
                 fontSize: "15px",
                 boxShadow: "10px 10px 0 0 black",
-                padding: "5px"
+                padding: "5px",
               }}
             >
-              "Annie helped me identify gaps between my application and the role
-              I was applying to."
+              "When it comes to sharing insightful and relevant tips about
+              getting a job, only few people can match Annie’s passion and
+              dedication."
             </div>
             <p>Jeremy, Product Marketing Manager</p>
           </div>
@@ -56,7 +57,7 @@ class FourthPane extends React.Component {
                 ontFamily: "Inter",
                 fontSize: "15px",
                 boxShadow: "10px 10px 0 0 black",
-                padding: "5px"
+                padding: "5px",
               }}
             >
               "Annie encouraged me to apply to roles I wouldn't normally and I
@@ -82,7 +83,7 @@ class FourthPane extends React.Component {
                 ontFamily: "Inter",
                 fontSize: "15px",
                 boxShadow: "10px 10px 0 0 black",
-                padding: "5px"
+                padding: "5px",
               }}
             >
               "Annie helped me structure my search and I changed career in less

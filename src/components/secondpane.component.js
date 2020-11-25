@@ -126,7 +126,7 @@ class SecondPane extends React.Component {
             display: "inline",
             verticalAlign: "top",
             fontFamily: "Mukta",
-            fontSize: "20px",
+            fontSize: "18px",
             marginLeft: "2%",
           }}
         >
