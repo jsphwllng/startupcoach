@@ -60,8 +60,8 @@ class FourthPane extends React.Component {
                 padding: "5px",
               }}
             >
-              "Annie encouraged me to apply to roles I wouldn't normally and I
-              am now in my dream job!"
+              "Annie has been a great guide during my
+              journey of finding the next challenge. She listens carefully and offers great advice and tactics for salary negotiation."
             </div>
             <p>Fanyi, Investment Associate</p>
           </div>
