@@ -25,7 +25,7 @@ function App() {
           name="description"
           content="Take control of your career today with an actual recruiter."
         />
-        <meta itemprop="name" content="Job Search Coach" />
+        <meta itemprop="name" content="Job Search Coaching by Annie" />
         <meta
           itemprop="description"
           content="Take control of your career today with an actual recruiter."
@@ -33,14 +33,14 @@ function App() {
         <meta itemprop="image" content="https://i.imgur.com/RZEwl3a.png" />
         <meta property="og:url" content="http://www.anniecoaching.com" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Job Search Coach" />
+        <meta property="og:title" content="Job Search Coaching by Annie" />
         <meta
           property="og:description"
           content="Take control of your career today with an actual recruiter."
         />
         <meta property="og:image" content="https://i.imgur.com/RZEwl3a.png" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Job Search Coach" />
+        <meta name="twitter:title" content="Job Search Coaching by Annie" />
         <meta
           name="twitter:description"
           content="Take control of your career today with an actual recruiter."
