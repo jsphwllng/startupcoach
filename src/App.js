@@ -20,7 +20,7 @@ function App() {
       }}
     >
       <Helmet>
-        <title>Job Search Coaching with Annie</title>
+        <title>Job Search Coaching by Annie</title>
         <meta
           name="description"
           content="Take control of your career today with an actual recruiter."
