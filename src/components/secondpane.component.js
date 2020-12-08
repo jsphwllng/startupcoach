@@ -1,5 +1,5 @@
 import React from "react";
-import chatting from "./images/chatting.png";
+import chatting from "./images/chatting.jpg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 class SecondPane extends React.Component {
