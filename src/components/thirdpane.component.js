@@ -22,8 +22,19 @@ class ThirdPane extends React.Component {
             style={{ fontFamily: "Inter", fontSize: "20px", color: "black" }}
           >
             <p>Talking Talent by ACELR8</p>
-            <p>Job Search Strategy by WomenTechMakers</p>
-            <p>
+            <a
+              href="https://www.youtube.com/watch?v=KLjZdTxid2M"
+              style={{
+                textDecorationLine: "underline",
+                textDecorationStyle: "dashed",
+                fontFamily: "Inter",
+                fontSize: "20px",
+                color: "black",
+              }}
+            >
+              Job Search Strategy by WomenTechMakers
+            </a>
+            <p className="mt-3">
               Enable Diversity in the Startup Ecosystem by Microsoft for
               Startups
             </p>
